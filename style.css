@@ -54,41 +54,214 @@ menu{
 }
 #mat{
     font-family: 'UnifrakturMaguntia', cursive;
-    font-weight: 800;
+    font-weight: 600;
     color: aliceblue;
     font-size: 3em;
 }
 li{
 
 }
-#her{
+.her{
     width: 100%;
-    height: 800px;
+    height: 600px;
     background-color: rgba(0, 0, 0, 0.692);
 }
 #it{
-    font-family: 'UnifrakturMaguntia', cursive;
-    font-size: 3em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.616);
     text-align: center;
     color: red;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.411);
-    padding-left: 74%;
+    padding-left: 60%;
 }
 #hed{
     font-family: 'UnifrakturMaguntia', cursive;
-    font-size: 3em;
+    font-size: 4em;
     color: aliceblue;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.616);
     text-align: center;
     padding-top: 36%;
-    padding-left: 74%;
+    padding-left: 60%;
 
 }
-#he {display: flex;
+#he {
+    display: flex;
     background-image: url("midias/hed.jpg");
     background-size: cover;
     width: 100%;
-    height: 800px;
+    height: 600px;
    
+}
+.pri{
+    
+    display: flex;
+    padding: 0px;
+    
+}
+.pri div{
+    
+    font-size: 1.3em;
+    text-align: justify;
+    color: black;
+    padding: 0px;
+    width: 44%;
+    padding: 0px;
+}
+.pri img{
+    width: 110%;
+    padding-left: 17%;
+    background-size: cover;
+
+}
+.botao{
+    margin-left: 25%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.336);
+    font-size: 1.2em;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.616);
+    background-color: red;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+#ima{
+    background-image: url("midias/s11.jpg" );
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    padding: 0px;
+    background-position: center;
+}
+article{
+    display: flex;
+    width: 98%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.art{
+    width: 44%;
+}
+
+h1{
+    color: black;
+    font-size: 2em;
+    font-family: 'UnifrakturMaguntia', cursive;
+    text-align: center;
+    padding: 10px;
+}
+p{
+    color: black;
+    text-align: justify;
+    padding: 10px;
+}
+.slider{
+    display: block;
+   width: 800px;
+   
+   height: 600px;
+   overflow:hidden;
+}
+.slides{
+    width: 400%;
+    height: 600px;
+    display: flex;
+    background-size:cover;
+}
+.slides input{
+    display: none;
+}
+.slide{
+    width: 25%;
+    position: relative;
+    background-size:cover;
+}
+.slide img{
+    background-size:cover;
+    width: 800px;
+}
+.nave-manual {
+    position: absolute;
+    width: 800px;
+    margin-top: -60px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    background-size:cover;
+}
+.manual-btn{
+    border: 2px solid rgb(182, 248, 250);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 10px;
+}
+
+
+.manual-btn:hover{
+    background-color: aliceblue;
+}
+#radio1:checked~.first{
+    margin-left: 0;
+}
+#radio2:checked~.first{
+    margin-left: -25%;
+}
+#radio3:checked~.first{
+    margin-left: -50%;
+}
+#radio4:checked~.first{
+    margin-left: -75%;
+}
+#radio5:checked~.first{
+    margin-left: -100%;
+}
+#radio6:checked~.first{
+    margin-left: -125%;
+}
+
+
+.navega-auto div{
+    border: 2px solid rgb(38, 149, 252);
+    padding: 5px;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 1s;
+}
+
+.navega-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 600px;
+    display: flex;
+    justify-content: center;
+}
+.navega-auto div:not(:last-child){
+    margin-right: 10px;
+}
+
+#radio1:checked~.navega-auto .auto-btn1{
+    background-color: aliceblue;
+}
+#radio2:checked~.navega-auto .auto-btn2{
+    background-color: aliceblue;
+}
+#radio3:checked~.navega-auto .auto-btn3{
+    background-color: aliceblue;
+}
+#radio4:checked~.navega-auto .auto-btn4{
+    background-color: aliceblue;
+}
+#radio5:checked~.navega-auto .auto-btn5{
+    background-color: aliceblue;
+}
+#radio6:checked~.navega-auto .auto-btn6{
+    background-color: aliceblue;
 }
