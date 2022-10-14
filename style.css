@@ -22,25 +22,29 @@
   'GRAD' 0,
   'opsz' 48
 }
-span{
-    color: aliceblue;
+#resp{
     font-size: 3em;
+    color: aliceblue; 
 }
-
+#resp:hover{
+    font-size: 3.2em;
+    cursor: pointer;
+}
 menu{
-    background-color: rgb(82, 80, 80);;
+    width: 98vh;
+    background-image: linear-gradient(to bottom, rgb(22, 22, 22), rgb(48, 47, 47), rgb(48, 47, 47), rgb(22, 22, 22));
     display: flex;
     justify-content: flex-start;
-
     padding: 10px;
+    box-shadow: 3px 3px 5px black;   
 }
 #nom{
-    margin-left: 20%;
+    margin-left: 5%;
 }
 #men{
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.521);
     color: aliceblue;
-    display: block;
+    display: none;
 }
 #men a{
     color: aliceblue;
@@ -51,46 +55,49 @@ menu{
     margin-top: 10px;
     padding: 4px;
     border-bottom: 2px solid white;
+    font-size: .9em;
+}
+ul{
+    list-style-type: none;
 }
 #mat{
     font-family: 'UnifrakturMaguntia', cursive;
     font-weight: 600;
     color: aliceblue;
-    font-size: 3em;
-}
-li{
-
+    font-size: 1.8em;
 }
 .her{
-    width: 100%;
-    height: 600px;
+    width: 98vh;
+    height: 360px;
     background-color: rgba(0, 0, 0, 0.692);
 }
 #it{
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 2em;
+    font-size: 1.6em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.616);
     text-align: center;
     color: red;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.411);
-    padding-left: 60%;
+    padding-left: 10%;
+    padding-top: 0px;
 }
 #hed{
     font-family: 'UnifrakturMaguntia', cursive;
-    font-size: 4em;
+    font-size: 2.7em;
     color: aliceblue;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.616);
     text-align: center;
-    padding-top: 36%;
-    padding-left: 60%;
+    padding-top: 46%;
+    padding-left: 10%;
+    padding-bottom: 0px;
 
 }
 #he {
     display: flex;
     background-image: url("midias/hed.jpg");
     background-size: cover;
-    width: 100%;
-    height: 600px;
+    width: 100vh;
+    height: 360px;
    
 }
 .pri{
@@ -109,7 +116,8 @@ li{
     padding: 0px;
 }
 .pri img{
-    width: 110%;
+    width: 48vh;
+    height: 360px;
     padding-left: 17%;
     background-size: cover;
 
@@ -128,14 +136,14 @@ li{
 #ima{
     background-image: url("midias/s11.jpg" );
     background-size: cover;
-    width: 100%;
-    height: 600px;
+    width: 100vh;
+    height: 360px;
     padding: 0px;
     background-position: center;
 }
 article{
     display: flex;
-    width: 98%;
+    width: 98vh;
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
@@ -161,14 +169,14 @@ p{
 }
 .slider{
     display: block;
-   width: 800px;
+   width: 98vh;
    
-   height: 600px;
+   height: 360px;
    overflow:hidden;
 }
 .slides{
     width: 400%;
-    height: 600px;
+    height: 360px;
     display: flex;
     background-size:cover;
 }
@@ -182,11 +190,11 @@ p{
 }
 .slide img{
     background-size:cover;
-    width: 800px;
+    width: 98vh;
 }
 .nave-manual {
     position: absolute;
-    width: 800px;
+    width: 98vh;
     margin-top: -60px;
     display: flex;
     align-items: baseline;
@@ -238,8 +246,8 @@ p{
 
 .navega-auto{
     position: absolute;
-    width: 800px;
-    margin-top: 600px;
+    width: 98vh;
+    margin-top: 360px;
     display: flex;
     justify-content: center;
 }
@@ -264,4 +272,46 @@ p{
 }
 #radio6:checked~.navega-auto .auto-btn6{
     background-color: aliceblue;
+}
+#cartao{
+    background-image: url("midias/Cartão.png" );
+    background-size: cover;
+    width: 98vh;
+    height: 360px;
+    padding: 0px;
+    background-position: center;
+}
+iframe{
+    width: 98vh;
+    margin: 10px;
+    border-radius: 10px;
+}
+.foo{
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+#foot{
+    display: block;
+    margin-left: 25%;
+}
+.midia{
+    display: block;
+    width: 35px;
+    border-radius: 50% 50%;
+    box-shadow: 3px 3px 5px rgba(77, 77, 77, 0.767);
+    padding: 3px;
+}
+#log{
+    display: block;
+    
+
+}
+
+footer{
+    display: flex;
+    width: 98vh;
+    background-image: linear-gradient(to bottom, rgb(22, 22, 22), rgb(48, 47, 47), rgb(48, 47, 47), rgb(22, 22, 22));
+    box-shadow: 3px 3px 5px black;    
+    padding: 10px;
 }
