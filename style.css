@@ -67,7 +67,7 @@ ul{
     font-size: 1.8em;
 }
 .her{
-    width: 98%;
+    width: 100%;
     height: 290px;
     background-color: rgba(0, 0, 0, 0.692);
 }
@@ -112,14 +112,14 @@ ul{
     color: black;
     padding: 10px;
     width: 44%;
+    height: 460px;
     padding-top: 0px;
 }
-.pri img{
-    margin-top: 50px;
-    width: 77%;
-    background-size: cover;
-    height: 290px;
+.pri video{
+    margin-top: -30px;
+    
 
+   
 }
 .botao{
     margin-left: 25%;
@@ -168,33 +168,33 @@ p{
 }
 .slider{
     display: block;
-   width: 98%;
-   height: 290px;
+   width: 80vh;
+   height: 560px;
    overflow:hidden;
 }
 .slides{
     background-size: cover;
-    width: 98%;
-    height: 290px;
+    width: 98vh;
+    height: 560px;
     display: flex;
 }
 .slides input{
     display: none;
 }
 #slide{
-    width: 98%;
+    width: 80vh;
     position: relative;
     background-size:cover;
 }
 .slide img{
     background-size: cover;
-    width: 98%;
-    height: 290px;
+    width: 98vh;
+    height: 560px;
 }
 .nave-manual {
     position: absolute;
     width: 98%;
-    margin-top: -60px;
+    margin-top: 540px;
     display: flex;
     align-items: baseline;
     justify-content: center;
@@ -205,7 +205,7 @@ p{
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
-    transition: 1s;
+    transition: 2s;
 }
 .manual-btn:not(:last-child){
     margin-right: 10px;
@@ -246,7 +246,7 @@ p{
 .navega-auto{
     position: absolute;
     width: 98%;
-    margin-top: 290px;
+    margin-top: 540px;
     display: flex;
     justify-content: center;
 }
