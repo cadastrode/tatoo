@@ -130,7 +130,7 @@ ul{
 }
 .pri{
     width: 98vw;
-    display: flex;
+    display: block;
     padding: 0px;
     
 }
@@ -139,12 +139,13 @@ ul{
     font-size: 1em;
     text-align: justify;
     color: black;
-    width: 44%;
+    width: 98%;
     height: 670px;
     padding-top: 0px;
 }
 .pri video{
-    margin-top: -30px;
+    margin-top: -60px;
+    padding: 10px;
     
     
 
@@ -242,7 +243,7 @@ p{
 .slide img{
     padding: 25px;
     background-size: cover;
-    width: 35vh;
+    width: 26vh;
     height: 180px;
     border-radius: 50% 50%;
 }
