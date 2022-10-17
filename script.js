@@ -3,11 +3,11 @@ document.getElementById("radio1").checked = true;
 
 setInterval(function(){
     proximaImage();
-}, 3000)
+}, 4000)
 
 function proximaImage() {
     count++;
-    if(count>6){
+    if(count>8){
         count=1;
     }
     document.getElementById("radio"+count).checked =true;

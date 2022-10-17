@@ -31,7 +31,7 @@
     cursor: pointer;
 }
 menu{
-    width: 98%;
+    width: 98vh;
     background-image: linear-gradient(to bottom, rgb(22, 22, 22), rgb(48, 47, 47), rgb(48, 47, 47), rgb(22, 22, 22));
     display: flex;
     justify-content: flex-start;
@@ -67,40 +67,67 @@ ul{
     font-size: 1.8em;
 }
 .her{
-    width: 100%;
+    width: 99vh;
     height: 290px;
     background-color: rgba(0, 0, 0, 0.692);
+   
+    
 }
-#it{
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 1.6em;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.616);
-    text-align: center;
-    color: red;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.411);
-    padding-left: 10%;
-    padding-top: 0px;
-}
-#hed{
+.mart{
     font-family: 'UnifrakturMaguntia', cursive;
-    font-size: 2.7em;
-    color: aliceblue;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.616);
+    color:aliceblue;
+    font-size: 3.5em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+    padding-top: 36px;
+    padding-bottom: 0px;
+}
+.tat{
+    font-family:Arial, Helvetica, sans-serif;
+    color: red;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+    font-size: 1.8em;
+    padding-top: 0px;
+    padding-bottom: 35px;
+}
+#ho{
+    color: red;
+    font-size: 1.6em;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+#hor{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    color: rgba(240, 248, 255, 0.671);
+    padding: 10px;
+}
+
+#hed{
+   
     text-align: center;
     padding-top: 36%;
     padding-left: 10%;
     padding-bottom: 0px;
 
 }
+.para{
+    background-attachment: fixed;
+    background-size: contain;
+    width: 98vh;
+   
+
+}
+
 #he {
     display: flex;
     background-image: url("midias/hed.jpg");
-    background-size: cover;
-    width: 98%;
-    height: 290px;
+ 
+    
+    
 }
 .pri{
-    width: 98%;
+    width: 98vh;
     display: flex;
     padding: 0px;
     
@@ -110,7 +137,7 @@ ul{
     font-size: .9em;
     text-align: justify;
     color: black;
-    padding: 10px;
+    padding: 30px;
     width: 44%;
     height: 460px;
     padding-top: 0px;
@@ -132,17 +159,25 @@ ul{
     border-radius: 5px;
 
 }
+#bot{
+    margin-left: 37%;
+    margin-top: 20px;
+}
+.botao a{
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+}
 #ima{
     background-image: url("midias/s11.jpg" );
-    background-size: cover;
-    width: 98%;
+    width: 98vh;
     height: 290px;
     padding: 0px;
     background-position: center;
 }
 article{
     display: flex;
-    width: 98%;
+    width: 98vh;
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
@@ -152,6 +187,7 @@ article{
 }
 .art{
     width: 44%;
+    padding: 20px;
 }
 
 h1{
@@ -161,40 +197,54 @@ h1{
     text-align: center;
     padding: 10px;
 }
+h2{
+    color: black;
+    font-size: 1.5em;
+    font-family: 'UnifrakturMaguntia', cursive;
+    text-align: center;
+    padding: 15px;
+}
 p{
     color: black;
     text-align: justify;
     padding: 10px;
 }
+.sla{
+    padding: 20px;
+    color: black;
+    text-align: justify;
+    font-size: .8;
+}
 .slider{
     display: block;
-   width: 80vh;
-   height: 560px;
+   width: 98vh;
+   height: 650px;
    overflow:hidden;
 }
 .slides{
     background-size: cover;
     width: 98vh;
-    height: 560px;
     display: flex;
 }
 .slides input{
     display: none;
 }
 #slide{
-    width: 80vh;
+    width: 98vh;
     position: relative;
     background-size:cover;
 }
 .slide img{
+    padding: 25px;
     background-size: cover;
-    width: 98vh;
-    height: 560px;
+    width: 35vh;
+    height: 180px;
+    border-radius: 50% 50%;
 }
 .nave-manual {
     position: absolute;
-    width: 98%;
-    margin-top: 540px;
+    width: 98vh;
+    margin-top: 640px;
     display: flex;
     align-items: baseline;
     justify-content: center;
@@ -205,7 +255,8 @@ p{
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
-    transition: 2s;
+    transition: 1s;
+    background-color: rgba(0, 0, 0, 0.164);
 }
 .manual-btn:not(:last-child){
     margin-right: 10px;
@@ -233,6 +284,15 @@ p{
 #radio6:checked~.first{
     margin-left: -125%;
 }
+#radio7:checked~.first{
+    margin-left: -150%;
+}
+#radio8:checked~.first{
+    margin-left: -175%;
+}
+#radio9:checked~.first{
+    margin-left: -200%;
+}
 
 
 .navega-auto div{
@@ -245,8 +305,8 @@ p{
 
 .navega-auto{
     position: absolute;
-    width: 98%;
-    margin-top: 540px;
+    width: 98vh;
+    margin-top: 640px;
     display: flex;
     justify-content: center;
 }
@@ -272,16 +332,22 @@ p{
 #radio6:checked~.navega-auto .auto-btn6{
     background-color: aliceblue;
 }
+#radio7:checked~.navega-auto .auto-btn6{
+    background-color: aliceblue;
+}
+#radio8:checked~.navega-auto .auto-btn6{
+    background-color: aliceblue;
+}
 #cartao{
     background-image: url("midias/Cartão.png" );
-    background-size: cover;
-    width: 98%;
+    
+    width: 98vh;
     height: 285px;
     padding: 0px;
     background-position: center;
 }
 iframe{
-    width: 98%;
+    width: 98vh;
     margin: 10px;
     border-radius: 10px;
 }
@@ -292,6 +358,7 @@ iframe{
 }
 #foot{
     display: block;
+    margin-left: 18%;
     
 }
 .midia{
@@ -309,9 +376,35 @@ iframe{
 
 footer{
     display: flex;
-    width: 98%;
+    width: 98vh;
     background-image: linear-gradient(to bottom, rgb(22, 22, 22), rgb(48, 47, 47), rgb(48, 47, 47), rgb(22, 22, 22));
     box-shadow: 3px 3px 5px black;    
     padding: 10px;
-    padding-right: 0px;
+    padding-left: 0px;
 }
+#whats{
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+    width: 10%;
+}.nome{
+    position: fixed;
+    bottom: 35px;
+    right: 166px;
+    width: 15%;
+    font-family: 'UnifrakturMaguntia', cursive;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.616);
+   
+}
+.nomes{
+    position: fixed;
+    bottom: 5px;
+    right: 108px;
+    width: 29%;
+    font-family:Arial, Helvetica, sans-serif;
+    color: red;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+    
+}  
+
