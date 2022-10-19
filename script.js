@@ -7,7 +7,7 @@ setInterval(function(){
 
 function proximaImage() {
     count++;
-    if(count>8){
+    if(count>7){
         count=1;
     }
     document.getElementById("radio"+count).checked =true;

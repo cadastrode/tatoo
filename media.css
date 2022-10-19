@@ -11,19 +11,25 @@
         flex-direction: row;
         flex-wrap: nowrap;
         align-content: flex-end;
-        justify-content: center;
         align-items: flex-end;
-        
+        justify-content: center;   
+    }
+    #men a:hover{
+        padding: 4px;
+        background-color: rgba(252, 252, 252, 0.904);
+        color: rgba(51, 51, 51, 0.863);
     }
     menu{
         display: block;
         padding-bottom: 3px;
-        padding-top: 3px;
+        padding-top: 10px;
+        padding-left: 0px;
     }
     
 
 #nom {
     margin-left: 0px;
+    
 }
     ul{
         display: flex; 
@@ -34,9 +40,9 @@
         background-color: rgba(252, 252, 252, 0.158);
         color: rgba(255, 254, 254, 0.863);
         text-decoration: none;
-        padding: 5px;
+        padding: 3px;
         
-        margin-left: 10px;
+        margin-left: 2px;
         font-size: 1em;
         border-bottom: none;
         margin-top: 0px;
@@ -46,6 +52,7 @@
     #mat {
         padding-top: 1px;
         padding-bottom: 8px;
+        font-size: 2em;
     }
     .mart {
         padding-top: 95px
@@ -66,6 +73,54 @@
         padding-left: 46px;
         width: 80%;
     }
-
+    #ho {
+        padding-top: 100px;
+    }
+    .slide img {
+        padding: 35px;
+        width: 30vh;
+        height: 190px;
+      
+    }
+    .nave-manual {
+        
+        margin-top: 755px;
+}
+.navega-auto {
+    margin-top: 755px; 
+}
+.slider {
+    height: 807px;
     
 }
+.botao {
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 1em;
+    
+}
+#foot {
+    margin-left: 16%;
+}
+}.nome{
+    display: block;
+    position: fixed;
+    bottom: 30px;
+    left: 0px;
+    margin-left: 70%;
+   
+}
+.nomes{
+    display: block;
+    position: fixed;
+    bottom: 3px;
+    left: 0px;
+    margin-left: 69%;
+  
+   
+    
+}  
+#whats {
+    width: 6%;
+}
+
