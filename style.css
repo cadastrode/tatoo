@@ -15,13 +15,7 @@
 
    
 }
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
-}
+
 #resp{
     font-size: 3em;
     color: aliceblue; 
@@ -31,7 +25,7 @@
     cursor: pointer;
 }
 menu{
-    width: 98vw;
+    width: 98vh;
     background-image: linear-gradient(to bottom, rgb(22, 22, 22), rgb(48, 47, 47), rgb(48, 47, 47), rgb(22, 22, 22));
     display: flex;
     justify-content: flex-start;
@@ -39,7 +33,7 @@ menu{
     box-shadow: 3px 3px 5px black;   
 }
 #nom{
-    margin-left: 30%;
+   margin-right: 4%;
 }
 #men{
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.521);
@@ -48,26 +42,30 @@ menu{
 }
 #men a{
     color: aliceblue;
-    font-family: 'Berkshire Swash', cursive;
     display: block;
     align-items: center;
     text-decoration: none;
-    margin-top: 10px;
-    padding: 4px;
-    border-bottom: 2px solid white;
+    margin-top: 3px;
+    padding: 3px;
     font-size: 1em;
+}
+#men a:hover{
+    padding: 5px;
+    color: rgba(216, 253, 4, 0.712);
+    background-color: rgba(22, 22, 22, 0.705);
+    border-radius: 3px;
 }
 ul{
     list-style-type: none;
 }
 #mat{
     font-family: 'UnifrakturMaguntia', cursive;
-    font-weight: 600;
+    
     color: aliceblue;
-    font-size: 3em;
+    font-size: 2em;
 }
 .her{
-    width: 98vw;
+    width: 100vh;
     height: 400px;
     background-color: rgba(0, 0, 0, 0.692);
    
@@ -114,7 +112,7 @@ ul{
 .para{
     background-attachment: fixed;
     background-size: cover;
-    width: 98vw;
+    width: 100vh;
    
 
 }
@@ -129,7 +127,7 @@ ul{
     
 }
 .pri{
-    width: 98vw;
+    width: 100vh;
     display: block;
     padding: 0px;
     
@@ -140,11 +138,12 @@ ul{
     text-align: justify;
     color: black;
     width: 98%;
-    height: 670px;
+    height: 443px;
     padding-top: 0px;
 }
 .pri video{
-    margin-top: -60px;
+    margin-top: -200px;
+    margin-left: 11%;
     padding: 10px;
     
     
@@ -152,7 +151,7 @@ ul{
    
 }
 .botao{
-    margin-left: 25%;
+    margin-left: 10%;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.336);
     font-size: 1.2em;
     box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.616);
@@ -170,7 +169,7 @@ ul{
 }
 
 #bot{
-    margin-left: 43%;
+    margin-left: 36%;
     margin-top: 20px;
 }
 .botao a{
@@ -180,26 +179,24 @@ ul{
 }
 #ima{
     background-image: url("midias/s11.jpg" );
-    width: 98vw;
+    width: 100vh;
     height: 400px;
     padding: 0px;
     background-position: center;
 }
 article{
     display: flex;
-    width: 98vw;
+    width: 100vh;
     height: 400px;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: flex-start;
     align-items: center;
+    padding: 60px;
 
 }
-.art{
-    width: 44%;
-    padding: 20px;
-}
+
 
 h1{
     color: black;
@@ -229,13 +226,13 @@ p{
 }
 .slider{
     display: block;
-   width: 98vw;
-   height: 650px;
+   width: 100vh;
+   height: 940px;
    overflow:hidden;
 }
 .slides{
     background-size: cover;
-    width: 98vw;
+    width: 100vh;
     display: flex;
     padding-right: 0px;
 }
@@ -243,12 +240,12 @@ p{
     display: none;
 }
 #slide{
-    width: 98vw;
+    width: 100vh;
     position: relative;
     background-size:cover;
 }
 .slide img{
-    padding: 25px;
+    padding: 50px;
     background-size: cover;
     width: 25vh;
     height: 180px;
@@ -256,8 +253,8 @@ p{
 }
 .nave-manual {
     position: absolute;
-    width: 98vw;
-    margin-top: 690px;
+    width: 100vh;
+    margin-top: 940px;
     display: flex;
     align-items: baseline;
     justify-content: center;
@@ -318,8 +315,8 @@ p{
 
 .navega-auto{
     position: absolute;
-    width: 98vw;
-    margin-top: 690px;
+    width: 100vh;
+    margin-top: 940px;
     display: flex;
     justify-content: center;
 }
@@ -354,13 +351,13 @@ p{
 #cartao{
     background-image: url("midias/Cartão.png" );
     
-    width: 98vw;
+    width: 100vh;
     height: 400px;
     padding: 0px;
     background-position: center;
 }
 iframe{
-    width: 98vw;
+    width: 100vh;
     margin: 10px;
     border-radius: 10px;
 }
@@ -393,7 +390,7 @@ iframe{
 
 footer{
     display: flex;
-    width: 98vw;
+    width: 100vh;
     background-image: linear-gradient(to bottom, rgb(22, 22, 22), rgb(48, 47, 47), rgb(48, 47, 47), rgb(22, 22, 22));
     box-shadow: 3px 3px 5px black;    
     padding: 10px;
@@ -412,7 +409,8 @@ footer{
     display: none;
     position: fixed;
     bottom: 30px;
-    margin-left: 50%;
+    margin-left: 37%;
+    left: 0px;
     width: 7%;
     font-family: 'UnifrakturMaguntia', cursive;
     color: aliceblue;
@@ -423,7 +421,8 @@ footer{
     display: none;
     position: fixed;
     bottom: 3px;
-    margin-left: 49%;
+    left: 0px;
+    margin-left: 35%;
     font-size: 1.8em;
     font-family:Arial, Helvetica, sans-serif;
     color: red;
