@@ -12,6 +12,13 @@ function proximaImage() {
     }
     document.getElementById("radio"+count).checked =true;
 }
+function tamanho(){
+    if (window.innerWidth>=655){
+        men.style.display='block'
+    }else {
+        men.style.display='none' 
+    }
+}
 
 function clickMenu(){
     
@@ -20,4 +27,5 @@ function clickMenu(){
     }else{
         men.style.display='block'
     }
+    
 }
